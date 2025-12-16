@@ -16,7 +16,7 @@ public class FoodDAO {
   {
 	  // xml을 읽어라 
 	  try
-	  {
+	  { 
 		  Reader reader=Resources.getResourceAsReader("Config.xml");
 		  ssf=new SqlSessionFactoryBuilder().build(reader);
 		  // XML 파싱 => 설정된 데이터를 읽는다 
